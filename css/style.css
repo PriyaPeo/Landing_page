@@ -13,17 +13,17 @@ header .header__wrapper {
 
 header .header__wrapper .logo__one {
   display: inline-block;
-  margin-left: 150px;
+  margin-left: 225px;
 }
 header .header__wrapper .logo__two {
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 42px;
 }
 
 header .seminer__list {
   position: absolute;
   top: 0;
-  right: 194px;
+  right: 228px;
   font-size: 20px;
   font-weight: 900;
   line-height: 29px;
@@ -57,3 +57,140 @@ header .seminer__list a {
   letter-spacing: 3px;
 }
 /* header end */
+
+/* banner start */
+.mid-head {
+  height: 20px;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 1.6px;
+}
+.benefit {
+  position: absolute;
+  height: 172px;
+  width: 174px;
+  right: 194px;
+  top: 110px;
+}
+
+.benefit-text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  width: fit-content;
+  text-align: center;
+}
+.benefit-text small {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+}
+.benefit-text h3 {
+  font-size: 34px;
+  line-height: 34px;
+  font-weight: 700;
+}
+.benefit-text h3 span {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.benefit img {
+  width: 100%;
+}
+.banner h1 {
+  height: 72px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 150%;
+  letter-spacing: 5px;
+  color: #333333;
+}
+.banner_box {
+  background: #f4f1eb;
+  opacity: 0.8;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.b1 {
+  width: 307px;
+  height: 161px;
+}
+.b2 {
+  width: 257px;
+  height: 161px;
+}
+.b3 {
+  width: 271px;
+  height: 161px;
+}
+.banner_inside {
+  background-image: linear-gradient(#e95529, #e95529),
+    linear-gradient(#e95529, #e95529), linear-gradient(#e95529, #e95529),
+    linear-gradient(#e95529, #e95529);
+  background-repeat: no-repeat;
+}
+
+.ankle1 {
+  background-size: 2px 22%, 12% 2px, 2.5px 22%, 12% 2.5px;
+  background-position: left top, left top, right bottom, right bottom, 2px 2px;
+  height: 130px;
+  width: 267px;
+  margin: 16px 20px;
+}
+.ankle2 {
+  background-size: 2px 22%, 12% 2px, 2.5px 22%, 12% 2.5px;
+  background-position: left top, left top, right bottom, right bottom, 2px 2px;
+  height: 130px;
+  width: 223px;
+  margin: 16px 16px;
+}
+.ankle3 {
+  background-size: 2px 22%, 12% 2px, 2.5px 22%, 12% 2px;
+  background-position: left top, left top, right bottom, right bottom, 2px 2px;
+  height: 130px;
+  width: 235px;
+  margin: 14px 17px;
+}
+.banner_box_text {
+  -webkit-text-stroke: 0.5px #e95529;
+  padding-top: 10px;
+  font-weight: bold;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 1.76px;
+  color: #ffffff;
+  text-shadow: 2px 2px 0px #e95529;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.banner_box_text.small-text {
+  -webkit-text-stroke: 0.5px #e95529;
+  padding-top: 0px;
+}
+.orange-button {
+  background: #e95529;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+}
+.card p {
+  padding-top: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: 1.76px;
+  color: #ffffff;
+  text-shadow: 2px 2px 0px red;
+}
+.card p span {
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 1.76px;
+}

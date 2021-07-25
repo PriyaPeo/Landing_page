@@ -1,3 +1,15 @@
+@media screen and (min-width: 740px) {
+  .banner_button {
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    width: 650px;
+    height: 80px;
+  }
+  .banner_button_area {
+    margin-top: -40px;
+  }
+}
 @media screen and (min-width: 740px) and (max-width: 1025px) {
   /* header start */
   header .header__wrapper .logo__one {
@@ -24,6 +36,24 @@
     width: 300px;
   }
   /* header end */
+
+  .benefit {
+    position: absolute;
+    height: 140px;
+    width: 160px;
+    right: 40px;
+    top: 110px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .b1 {
+    left: 172px;
+    bottom: 10px;
+  }
+  .b2 {
+    left: 56px;
+  }
 }
 
 @media screen and (max-width: 426px) {
@@ -67,6 +97,65 @@
     width: 192px;
   }
   /* header end */
+
+  .benefit-text small {
+    font-size: 10px;
+  }
+  .benefit-text h3 {
+    font-size: 30px;
+  }
+  .benefit {
+    height: 88px;
+    width: 106px;
+    position: absolute;
+    right: 10px;
+    top: 92px;
+  }
+
+  .b1 {
+    left: 105px;
+    width: 179px;
+    height: 96px;
+  }
+  .b2 {
+    left: 25px;
+    width: 149px;
+    height: 96px;
+  }
+  .b3 {
+    width: 158px;
+    height: 96px;
+    right: -20px;
+  }
+  .banner_button_area {
+    margin-top: -30px;
+  }
+  .banner_button {
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+    width: 279px;
+    height: 50px;
+  }
+  .card p {
+    padding-top: 5px;
+    font-size: 18px;
+  }
+  .card p span {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .b1 {
+    left: 80px;
+  }
+  .b2 {
+    left: 8px;
+  }
+  .b3 {
+    right: -5px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -107,4 +196,31 @@
     width: 150px;
   }
   /* header end */
+
+  .benefit-text small {
+    font-size: 8px;
+  }
+  .benefit-text h3 {
+    font-size: 20px;
+  }
+  .benefit {
+    height: 80px;
+    width: 93px;
+    position: absolute;
+    right: 5px;
+    top: 77px;
+  }
+  .b1 {
+    left: 65px;
+    width: 165px;
+    height: 96px;
+  }
+  .b2 {
+    width: 133px;
+    left: 0;
+  }
+  .b3 {
+    width: 140px;
+    right: -5px;
+  }
 }
