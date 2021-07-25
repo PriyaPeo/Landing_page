@@ -51,11 +51,6 @@ header .seminer__list a {
   color: #333333;
 }
 
-.title {
-  font-size: 40px;
-  line-height: 54px;
-  letter-spacing: 3px;
-}
 /* header end */
 
 /* banner start */
@@ -64,6 +59,8 @@ header .seminer__list a {
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 1.6px;
+  font-style: normal;
+  font-weight: bold;
 }
 .benefit {
   position: absolute;
@@ -193,4 +190,46 @@ header .seminer__list a {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: 1.76px;
+}
+/* banner end */
+
+/* seminar start */
+.small-head {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.6px;
+}
+.title {
+  font-size: 40px;
+  line-height: 54px;
+  letter-spacing: 3px;
+}
+.round-circle-wrapper .row {
+  max-width: 1024px;
+  margin: 0 auto 8px;
+}
+.grey-circle {
+  background: #e9e4d7;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.img1 {
+  padding-top: 30%;
+}
+.img2 {
+  padding-top: 16%;
+}
+.img3 {
+  padding-top: 27%;
+}
+.img4 {
+  padding-top: 21%;
+}
+.subtitle h5 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 32px;
 }
