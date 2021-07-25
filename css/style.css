@@ -1,0 +1,59 @@
+/* header start */
+header {
+  background-color: #ffffff;
+}
+
+header .container {
+  position: relative;
+}
+
+header .header__wrapper {
+  padding: 20px 0;
+}
+
+header .header__wrapper .logo__one {
+  display: inline-block;
+  margin-left: 150px;
+}
+header .header__wrapper .logo__two {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+header .seminer__list {
+  position: absolute;
+  top: 0;
+  right: 194px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 29px;
+  text-align: center;
+  z-index: 1;
+}
+
+header .seminer__list a {
+  box-shadow: 0 6px 7px -5px rgb(0 0 0 / 75%);
+  border-radius: 0 0 20px 20px;
+  background-color: #e95529;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  height: 96px;
+  width: 360px;
+  justify-content: center;
+  align-items: center;
+}
+.orange-color {
+  color: #e95529 !important;
+}
+.cf {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #333333;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 54px;
+  letter-spacing: 3px;
+}
+/* header end */

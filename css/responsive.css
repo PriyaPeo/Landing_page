@@ -1,0 +1,110 @@
+@media screen and (min-width: 740px) and (max-width: 1025px) {
+  /* header start */
+  header .header__wrapper .logo__one {
+    display: inline-block;
+    margin-left: 100px;
+  }
+  header .header__wrapper .logo__two {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  header .seminer__list {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 29px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  header .seminer__list a {
+    height: 96px;
+    width: 300px;
+  }
+  /* header end */
+}
+
+@media screen and (max-width: 426px) {
+  /* header start */
+  header .header__wrapper {
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  header .header__wrapper .logo__one {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  header .header__wrapper .logo__one img {
+    height: 30px;
+    width: 110px;
+    border-radius: 0px;
+  }
+
+  header .header__wrapper .logo__two {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  header .header__wrapper .logo__two img {
+    height: 30px;
+    width: 27px;
+    border-radius: 0px;
+  }
+
+  header .seminer__list {
+    font-size: 16px;
+    top: 0;
+    left: 175px;
+    line-height: 20px;
+  }
+
+  header .seminer__list a {
+    padding: 10% 4% 10% 4%;
+    height: 82px;
+    width: 192px;
+  }
+  /* header end */
+}
+
+@media screen and (max-width: 320px) {
+  /* header start */
+  header .header__wrapper {
+    height: 60px;
+  }
+  header .header__wrapper .logo__one {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  header .header__wrapper .logo__one img {
+    height: 30px;
+    width: 100px;
+    border-radius: 0px;
+  }
+
+  header .header__wrapper .logo__two {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  header .header__wrapper .logo__two img {
+    height: 30px;
+    width: 27px;
+    border-radius: 0px;
+  }
+
+  header .seminer__list {
+    font-size: 14px;
+    top: 0;
+    left: 164px;
+  }
+
+  header .seminer__list a {
+    padding: 10% 4% 10% 4%;
+    height: 72px;
+    width: 150px;
+  }
+  /* header end */
+}
