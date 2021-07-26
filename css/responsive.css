@@ -1,8 +1,6 @@
 @media screen and (min-width: 740px) {
   /* banner start */
   .banner_button {
-    font-weight: bolder;
-    color: white;
     font-size: 20px;
     width: 650px;
     height: 80px;
@@ -48,6 +46,16 @@
     top: 110px;
   }
   /* banner end */
+
+  /* seminar start */
+  .title {
+    font-size: 37px;
+    line-height: 44px;
+    letter-spacing: 1px;
+  }
+  .subtitle h5 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 770px) {
@@ -62,11 +70,7 @@
   /* banner end */
 
   /* seminar start */
-  .title {
-    font-size: 30px;
-    line-height: 44px;
-    letter-spacing: 3px;
-  }
+
   .grey-circle {
     margin-left: 20px;
   }
@@ -81,12 +85,6 @@
   }
   .img4 {
     margin: 1px 0px 0px 38px;
-  }
-  /* .team_text {
-    padding: 60px 0px 0px 100px;
-  } */
-  .subtitle {
-    margin-top: 40px;
   }
 
   /* seminar end */
@@ -157,22 +155,20 @@
     height: 96px;
   }
   .b2 {
-    left: 25px;
+    left: 15px;
     width: 149px;
     height: 96px;
   }
   .b3 {
     width: 158px;
     height: 96px;
-    right: -20px;
+    right: 8px;
   }
   .banner_button_area {
     margin-top: -30px;
   }
   .banner_button {
-    font-weight: bolder;
     font-size: 16px;
-    color: white;
     width: 279px;
     height: 50px;
   }
@@ -188,7 +184,6 @@
   /* seminar start */
   .seminar-mobile {
     height: 532px;
-    width: 324px;
     margin-left: 0;
   }
   .small-head {
@@ -226,11 +221,9 @@
     width: 59px;
     margin: 1px 0px 0px 18px;
   }
-  /* .team_text {
-    padding: 30px 0px 0px 22px;
-  } */
   .subtitle {
     margin-top: 40px;
+    margin-left: 5px;
   }
 
   .subtitle h5 {
@@ -240,21 +233,7 @@
   /* seminar end */
 }
 
-@media screen and (max-width: 376px) {
-  /* banner start */
-  .b1 {
-    left: 80px;
-  }
-  .b2 {
-    left: 8px;
-  }
-  .b3 {
-    right: -5px;
-  }
-  /* banner end */
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
   /* header start */
   header .header__wrapper {
     height: 60px;
@@ -319,11 +298,16 @@
   }
   .b3 {
     width: 140px;
-    right: -5px;
+    right: 3px;
   }
   /* banner end */
 
   /* seminar start */
+  .title {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+  }
   .grey-circle {
     height: 101px;
     width: 101px;
@@ -336,8 +320,8 @@
   }
   .img2 {
     height: 60px;
-    width: 19px;
-    margin: 12px 0px 0px 30px;
+    width: 25px;
+    margin: 12px 0px 0px 26px;
   }
   .img3 {
     height: 56px;
@@ -349,15 +333,12 @@
     width: 39px;
     margin: 1px 0px 0px 18px;
   }
-  /* .team_text {
-    padding-top: 30px;
-  } */
   .subtitle {
     margin-top: 40px;
   }
 
   .subtitle h5 {
-    font-size: 12px;
+    font-size: 11px;
     line-height: 14px;
   }
   /* seminar end */
