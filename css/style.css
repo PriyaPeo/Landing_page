@@ -72,7 +72,7 @@ header .seminer__list a {
 
 .benefit-text {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-10deg);
   width: fit-content;
@@ -233,3 +233,4 @@ header .seminer__list a {
   font-size: 17px;
   line-height: 32px;
 }
+/* seminar end */
