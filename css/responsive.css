@@ -1,4 +1,4 @@
-@media screen and (min-width: 740px) {
+@media screen and (min-width: 1024px) {
   /* banner start */
   .banner_button {
     font-size: 20px;
@@ -63,7 +63,35 @@
 }
 
 @media screen and (min-width: 500px) and (max-width: 770px) {
+  /* header start */
+  header .header__wrapper .logo__one {
+    display: inline-block;
+    margin-left: 100px;
+  }
+  header .header__wrapper .logo__two {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  header .seminer__list {
+    position: absolute;
+    top: 0;
+    right: 15px;
+  }
+
+  header .seminer__list a {
+    height: 96px;
+    width: 300px;
+  }
+  /* header end */
   /* banner start */
+  .banner_button {
+    font-size: 20px;
+    width: 500px;
+    height: 75px;
+  }
+  .banner_button_area {
+    margin-top: -40px;
+  }
   .benefit {
     position: absolute;
     height: 140px;
